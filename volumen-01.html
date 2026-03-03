@@ -1,87 +1,306 @@
 <!doctype html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>Prehispánico · Volumen 01 · 2026</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M3B301W39Z"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/base.css">
-<link rel="stylesheet" href="assets/css/volume.css">
-</head>
+      gtag("config", "G-M3B301W39Z");
+    </script>
 
-<body>
+    <title>Tezcatlipoca — Códice Borgia p.17 | Prehispánico</title>
 
-<header class="volume-header">
-  <div class="volume-meta">
-    PREHISPÁNICO · PUBLICACIÓN INDEPENDIENTE
-  </div>
-</header>
+    <title>Volumen 01 (2026) | Prehispánico</title>
+    <meta
+      name="description"
+      content="Volumen 01 (2026) de Prehispánico. Índice del volumen, artículos, metadatos académicos y enlaces a PDF."
+    />
+    <meta name="robots" content="index,follow" />
 
-<main class="volume">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <section class="volume-cover">
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/volume.css" />
+  </head>
 
-    <div class="volume-number">
-      VOL. 01
-    </div>
+  <body>
+    <!-- Topbar consistente con Home -->
+    <header class="topbar">
+      <div class="wrap topbar__inner">
+        <div class="brandBlock">
+          <div class="brand">PREHISPÁNICO</div>
+          <div class="tagline">
+            Revista Académica de Análisis Visual Mesoamericano
+          </div>
+        </div>
 
-    <h1 class="volume-title">
-      Sistema visual y pensamiento estructural
-      en la imagen mesoamericana
-    </h1>
-
-    <div class="volume-year">
-      2026
-    </div>
-
-  </section>
-
-  <section class="volume-editorial">
-    <div class="container narrow">
-
-      <h2>Editorial</h2>
-
-      <p>
-        El presente volumen inaugura Prehispánico como publicación digital 
-        dedicada al análisis estructural de la imagen mesoamericana desde 
-        la disciplina del diseño gráfico contemporáneo.
-      </p>
-
-      <p>
-        Este proyecto busca tender un puente entre el rigor académico,
-        la contemplación museística y la experimentación visual.
-      </p>
-
-    </div>
-  </section>
-
-  <section class="volume-contents">
-    <div class="container">
-
-      <h2>Contenido</h2>
-
-      <div class="article-entry">
-        <div class="entry-meta">Artículo 01</div>
-        <h3>
-          <a href="volumen-01/articulo-01.html">
-            Tezcatlipoca en la página 17 del Códice Borgia
-          </a>
-        </h3>
-        <p>
-          Análisis iconográfico, iconológico y estructural.
-        </p>
+        <div class="topbar__right">
+          <a class="btnGhost" href="index.html">Inicio</a>
+          <a class="btnGhost" href="normas-para-autores.html">Normas</a>
+          <button id="modeToggle" class="modeToggle" type="button">
+            NEGATIVO
+          </button>
+        </div>
       </div>
+    </header>
 
-    </div>
-  </section>
+    <main>
+      <!-- Header del volumen -->
+      <section class="volHero">
+        <div class="wrap">
+          <div class="volHero__meta">
+            <span class="stamp">VOL. 01</span>
+            <span class="dot">·</span>
+            <span class="year">2026</span>
+            <span class="dot">·</span>
+            <span class="muted">Acceso abierto</span>
+          </div>
 
-</main>
+          <h1 class="volHero__title">
+            Sistema visual y pensamiento estructural en la imagen mesoamericana
+          </h1>
 
-<footer class="volume-footer">
-  Joshua García Sandoval · San Luis Potosí · 2026
-</footer>
+          <p class="volHero__lead">
+            Volumen inaugural. Artículos fundacionales y marco editorial de la
+            revista.
+          </p>
 
-</body>
+          <div class="volHero__grid">
+            <div class="infoCard">
+              <div class="infoCard__k">Director Editorial</div>
+              <div class="infoCard__v">Joshua García Sandoval</div>
+            </div>
+            <div class="infoCard">
+              <div class="infoCard__k">Periodicidad</div>
+              <div class="infoCard__v">Anual</div>
+            </div>
+            <div class="infoCard">
+              <div class="infoCard__k">Citación</div>
+              <div class="infoCard__v">Chicago autor-fecha (17ª)</div>
+            </div>
+            <div class="infoCard">
+              <div class="infoCard__k">Estado</div>
+              <div class="infoCard__v">
+                En publicación (volumen en construcción)
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial del volumen -->
+      <section class="section section--alt">
+        <div class="wrap narrow">
+          <h2 class="h2">Editorial del volumen</h2>
+          <p class="p">
+            El Volumen 01 inaugura la revista <em>Prehispánico</em> como un
+            espacio académico digital de acceso abierto dedicado al análisis
+            estructural de la imagen mesoamericana desde disciplinas
+            contemporáneas.
+          </p>
+          <p class="p">
+            Este volumen establece el marco metodológico y editorial: análisis
+            iconográfico, iconológico y lectura formal mediante composición,
+            ritmo, jerarquía, cromática y tensión.
+          </p>
+
+          <div class="callouts">
+            <div class="callout">
+              <div class="callout__k">Convocatoria</div>
+              <div class="callout__v">
+                El Vol. 01 es fundacional. Las contribuciones externas se
+                integrarán a partir del Vol. 02 conforme a las
+                <a class="inlineLink" href="normas-para-autores.html"
+                  >Normas para autores</a
+                >.
+              </div>
+            </div>
+            <div class="callout">
+              <div class="callout__k">Ética y proceso</div>
+              <div class="callout__v">
+                Consulta el
+                <a class="inlineLink" href="proceso-editorial.html"
+                  >Proceso editorial</a
+                >
+                y la
+                <a class="inlineLink" href="etica-editorial.html"
+                  >Política de ética</a
+                >.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Índice del volumen -->
+      <section class="section">
+        <div class="wrap">
+          <div class="sectionHead">
+            <h2 class="h2">Índice</h2>
+            <div class="indexMeta">
+              <span class="pill">Artículos</span>
+              <span class="pill">Ensayos visuales</span>
+              <span class="pill">Reseñas</span>
+            </div>
+          </div>
+
+          <!-- LISTA DE ARTÍCULOS -->
+          <div class="toc">
+            <!-- Artículo 01 -->
+            <article class="tocItem">
+              <div class="tocItem__top">
+                <span class="tocBadge">Artículo 01</span>
+                <span class="tocRight">
+                  <span class="tocSmall">Publicado:</span>
+                  <span class="tocSmall">2026</span>
+                </span>
+              </div>
+
+              <h3 class="tocTitle">
+                <a href="volumen-01/articulo-01.html"
+                  >Tezcatlipoca en la página 17 del Códice Borgia</a
+                >
+              </h3>
+
+              <p class="tocDesc">
+                Análisis iconográfico, iconológico y estructural desde el diseño
+                gráfico contemporáneo.
+              </p>
+
+              <dl class="metaGrid">
+                <div class="metaRow">
+                  <dt>Autor</dt>
+                  <dd>Joshua García Sandoval</dd>
+                </div>
+                <div class="metaRow">
+                  <dt>Tipo</dt>
+                  <dd>Artículo de investigación</dd>
+                </div>
+                <div class="metaRow">
+                  <dt>Palabras clave</dt>
+                  <dd>
+                    Códice Borgia; Tezcatlipoca; iconografía; iconología;
+                    sistema visual
+                  </dd>
+                </div>
+                <div class="metaRow">
+                  <dt>Versión</dt>
+                  <dd>v1.0</dd>
+                </div>
+              </dl>
+
+              <div class="tocActions">
+                <a class="btnInline" href="volumen-01/articulo-01.html"
+                  >Leer HTML →</a
+                >
+                <a class="btnInline" href="volumen-01/articulo-01.pdf"
+                  >Descargar PDF →</a
+                >
+              </div>
+            </article>
+
+            <!-- Plantillas (deshabilitadas) para Artículo 02/03 -->
+            <article class="tocItem tocItem--ghost" aria-disabled="true">
+              <div class="tocItem__top">
+                <span class="tocBadge">Artículo 02</span>
+                <span class="tocRight">
+                  <span class="tocSmall">Estado:</span>
+                  <span class="tocSmall">En preparación</span>
+                </span>
+              </div>
+              <h3 class="tocTitle">[Título por definir]</h3>
+              <p class="tocDesc">—</p>
+              <div class="tocActions">
+                <span class="tocSmall muted">Próximamente</span>
+              </div>
+            </article>
+
+            <article class="tocItem tocItem--ghost" aria-disabled="true">
+              <div class="tocItem__top">
+                <span class="tocBadge">Artículo 03</span>
+                <span class="tocRight">
+                  <span class="tocSmall">Estado:</span>
+                  <span class="tocSmall">En preparación</span>
+                </span>
+              </div>
+              <h3 class="tocTitle">[Título por definir]</h3>
+              <p class="tocDesc">—</p>
+              <div class="tocActions">
+                <span class="tocSmall muted">Próximamente</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Descargas del volumen -->
+      <section class="section section--alt">
+        <div class="wrap narrow">
+          <h2 class="h2">Descargas</h2>
+          <p class="p">
+            Los artículos ofrecen versión HTML y PDF por separado. Cuando el
+            volumen esté completo, podrás publicar un PDF compilado del volumen
+            (opcional).
+          </p>
+
+          <div class="downloadGrid">
+            <a class="downloadCard" href="volumen-01/articulo-01.pdf">
+              <div class="downloadCard__k">PDF</div>
+              <div class="downloadCard__v">Artículo 01</div>
+            </a>
+
+            <div class="downloadCard downloadCard--ghost" aria-disabled="true">
+              <div class="downloadCard__k">PDF</div>
+              <div class="downloadCard__v">Volumen 01 (compilado)</div>
+              <div class="downloadCard__s">
+                Disponible al cierre del volumen
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Navegación institucional -->
+      <section class="section section--thin">
+        <div class="wrap">
+          <div class="navRow">
+            <a class="btnGhost" href="comite-editorial.html"
+              >Comité editorial</a
+            >
+            <a class="btnGhost" href="proceso-editorial.html"
+              >Proceso editorial</a
+            >
+            <a class="btnGhost" href="etica-editorial.html">Ética editorial</a>
+            <a class="btnGhost" href="normas-para-autores.html">Normas</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <div>Prehispánico · Vol. 01 · 2026</div>
+        <div class="muted">Infraestructura digital: Boxfox1 · 2026</div>
+      </div>
+    </footer>
+
+    <script src="assets/js/volume.js"></script>
+  </body>
 </html>
