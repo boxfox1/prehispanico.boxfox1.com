@@ -3,113 +3,243 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-M3B301W39Z"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-M3B301W39Z");
-    </script>
-
-    <title>Prehispánico — Laboratorio Editorial</title>
+    <title>
+      Prehispánico · Revista Académica de Análisis Visual Mesoamericano
+    </title>
     <meta
       name="description"
-      content="Laboratorio editorial de análisis visual contemporáneo del arte mesoamericano desde el diseño gráfico."
+      content="Prehispánico es una revista académica digital de acceso abierto dedicada al análisis visual mesoamericano desde diseño gráfico, estudios visuales e historia del arte."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="Prehispánico" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Prehispánico · Revista Académica" />
+    <meta
+      property="og:description"
+      content="Acceso abierto · Revisión por pares · Investigación original sobre imagen mesoamericana."
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
   </head>
 
   <body>
-    <header class="header">
-      <div class="header__inner">
-        <div class="brand">PREHISPÁNICO</div>
-        <div class="meta">Laboratorio editorial independiente · 2026</div>
-        <button id="modeToggle" class="modeToggle">NEGATIVO</button>
+    <header class="topbar">
+      <div class="wrap topbar__inner">
+        <div class="brandBlock">
+          <div class="brand">PREHISPÁNICO</div>
+          <div class="tagline">
+            Revista Académica de Análisis Visual Mesoamericano
+          </div>
+        </div>
+
+        <div class="topbar__right">
+          <div class="issueMeta">
+            <span class="pill">Acceso abierto</span>
+            <span class="pill">Revisión por pares</span>
+            <span class="pill">Periodicidad anual</span>
+          </div>
+          <button
+            id="modeToggle"
+            class="modeToggle"
+            type="button"
+            aria-label="Alternar modo negativo"
+          >
+            NEGATIVO
+          </button>
+        </div>
       </div>
     </header>
 
     <main>
+      <!-- HERO (museo / editorial) -->
       <section class="hero">
-        <div class="hero__inner">
-          <h1>La imagen mesoamericana como sistema visual</h1>
-          <p class="lead">
-            Investigación académica desde el diseño gráfico. Un espacio entre
-            museo, publicación y laboratorio.
+        <div class="wrap hero__inner">
+          <div class="hero__kicker">
+            PUBLICACIÓN DIGITAL · INVESTIGACIÓN ORIGINAL
+          </div>
+          <h1 class="hero__title">Imagen mesoamericana como sistema visual</h1>
+          <p class="hero__lead">
+            Artículos, ensayos visuales y reseñas con rigor académico, desde
+            diseño gráfico, estudios visuales e historia del arte.
           </p>
-        </div>
-      </section>
 
-      <section class="statement reveal">
-        <div class="container narrow">
-          <h2>Manifiesto</h2>
-          <p>
-            Este proyecto no interpreta desde el folclor ni desde la decoración.
-            Analiza desde estructura.
-          </p>
-          <p>
-            Las imágenes prehispánicas son sistemas visuales complejos. Se
-            estudian aquí mediante composición, ritmo, jerarquía, cromática y
-            tensión formal.
-          </p>
-        </div>
-      </section>
-
-      <section class="structure reveal">
-        <div class="container grid">
-          <div class="col">
-            <span class="number">01</span>
-            <h3>Contexto</h3>
-            <p>Ubicación cultural mínima necesaria para entender la pieza.</p>
+          <div class="hero__cta">
+            <a class="btnPrimary" href="volumen-01.html">Ver Volumen 01 →</a>
+            <a class="btnGhost" href="normas-para-autores.html"
+              >Normas para autores</a
+            >
           </div>
 
-          <div class="col">
-            <span class="number">02</span>
-            <h3>Iconografía</h3>
-            <p>Identificación formal descriptiva de los elementos.</p>
-          </div>
-
-          <div class="col">
-            <span class="number">03</span>
-            <h3>Iconología</h3>
-            <p>Relación simbólica dentro del sistema cultural.</p>
-          </div>
-
-          <div class="col">
-            <span class="number">04</span>
-            <h3>Sistema visual</h3>
-            <p>Análisis estructural desde principios contemporáneos.</p>
+          <div class="hero__note">
+            Director Editorial: <strong>Joshua García Sandoval</strong> · San
+            Luis Potosí, México
           </div>
         </div>
       </section>
 
-      <section class="entry reveal">
-        <div class="container narrow">
-          <a href="estudio.html" class="enter"> Entrar al primer estudio → </a>
+      <!-- QUICK NAV (institucional) -->
+      <section class="section section--thin reveal">
+        <div class="wrap">
+          <div class="quickGrid">
+            <a class="quickCard" href="sobre-la-revista.html">
+              <div class="quickCard__title">Sobre la revista</div>
+              <div class="quickCard__desc">
+                Alcance, enfoque, política de acceso abierto.
+              </div>
+            </a>
+
+            <a class="quickCard" href="comite-editorial.html">
+              <div class="quickCard__title">Comité editorial</div>
+              <div class="quickCard__desc">
+                Dirección, consejo editorial y evaluadores.
+              </div>
+            </a>
+
+            <a class="quickCard" href="proceso-editorial.html">
+              <div class="quickCard__title">Proceso editorial</div>
+              <div class="quickCard__desc">
+                Revisión por pares (doble ciego) y dictámenes.
+              </div>
+            </a>
+
+            <a class="quickCard" href="etica-editorial.html">
+              <div class="quickCard__title">Ética editorial</div>
+              <div class="quickCard__desc">
+                Integridad académica, plagio y retractaciones.
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LÍNEA EDITORIAL (académico + museo) -->
+      <section class="section reveal">
+        <div class="wrap narrow">
+          <h2 class="h2">Línea editorial</h2>
+          <p class="p">
+            Prehispánico publica investigaciones originales con enfoque
+            estructural: iconografía, iconología y análisis visual
+            contemporáneo. Se prioriza el rigor metodológico, la citación formal
+            y el respeto al contexto cultural.
+          </p>
+
+          <div class="bullets">
+            <div class="bullet">
+              <div class="bullet__k">Temas</div>
+              <div class="bullet__v">
+                Códices, sistemas pictográficos, iconografía ritual, teoría de
+                la imagen.
+              </div>
+            </div>
+            <div class="bullet">
+              <div class="bullet__k">Formato</div>
+              <div class="bullet__v">
+                Artículos · Ensayos visuales · Reseñas críticas.
+              </div>
+            </div>
+            <div class="bullet">
+              <div class="bullet__k">Citación</div>
+              <div class="bullet__v">Chicago autor-fecha (17ª ed.).</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESTACADOS / VOLÚMENES (catálogo) -->
+      <section class="section section--alt reveal">
+        <div class="wrap">
+          <div class="sectionHead">
+            <h2 class="h2">Volúmenes</h2>
+            <a class="microLink" href="volumen-01.html"
+              >Ir al índice del Volumen 01 →</a
+            >
+          </div>
+
+          <div class="volGrid">
+            <article class="volCard">
+              <div class="volCard__meta">
+                <span class="stamp">VOL. 01</span>
+                <span class="year">2026</span>
+              </div>
+              <h3 class="volCard__title">
+                Sistema visual y pensamiento estructural en la imagen
+                mesoamericana
+              </h3>
+              <p class="volCard__desc">
+                Volumen inaugural. Artículos fundacionales y marco editorial de
+                la revista.
+              </p>
+              <a class="btnInline" href="volumen-01.html">Abrir volumen →</a>
+            </article>
+
+            <!-- Placeholder para Vol.02 (sin prometer fecha exacta) -->
+            <article class="volCard volCard--ghost" aria-disabled="true">
+              <div class="volCard__meta">
+                <span class="stamp">VOL. 02</span>
+                <span class="year">Próximo</span>
+              </div>
+              <h3 class="volCard__title">
+                Convocatoria y evaluación por pares
+              </h3>
+              <p class="volCard__desc">
+                A partir del Vol. 02 se aceptan contribuciones externas conforme
+                a las normas.
+              </p>
+              <a class="btnInline" href="normas-para-autores.html"
+                >Ver normas →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- LAB TOUCH (laboratorio visual, sutil) -->
+      <section class="section reveal">
+        <div class="wrap narrow">
+          <h2 class="h2">Laboratorio visual</h2>
+          <p class="p">
+            La revista incorpora capas de lectura visual (opcional):
+            positivo/negativo, estructura geométrica y mapas cromáticos cuando
+            el estudio lo justifica, manteniendo la sobriedad editorial.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACTO EDITORIAL -->
+      <section class="section section--thin reveal">
+        <div class="wrap narrow">
+          <div class="contactBox">
+            <h2 class="h2 h2--sm">Contacto editorial</h2>
+            <p class="p">
+              Envíos, dictámenes y comunicación editorial:
+              <strong>info@boxfox1.com</strong>
+            </p>
+            <p class="p small">
+              (Ajusta el correo al que realmente vayas a usar.)
+            </p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <p>
-          Joshua García Sandoval · San Luis Potosí · Investigación independiente
-        </p>
+      <div class="wrap footer__inner">
+        <div>Prehispánico · Acceso abierto · Revisión por pares</div>
+        <div class="muted">Infraestructura digital: Boxfox1 · 2026</div>
       </div>
     </footer>
 
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/home.js"></script>
   </body>
 </html>
