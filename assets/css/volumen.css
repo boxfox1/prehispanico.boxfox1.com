@@ -1,0 +1,75 @@
+.volume{
+  margin-top:120px;
+}
+
+.volume-cover{
+  text-align:center;
+  padding:160px 8% 180px;
+}
+
+.volume-number{
+  font-weight:300;
+  letter-spacing:0.4em;
+  font-size:14px;
+  margin-bottom:40px;
+  color:#777;
+}
+
+.volume-title{
+  font-weight:300;
+  font-size:48px;
+  max-width:800px;
+  margin:0 auto 40px;
+  line-height:1.4;
+}
+
+.volume-year{
+  font-size:14px;
+  letter-spacing:0.2em;
+  color:#8E1C1C;
+}
+
+.volume-editorial{
+  padding:120px 0;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+
+.volume-contents{
+  padding:120px 0 180px;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+
+.article-entry{
+  margin-top:60px;
+  max-width:720px;
+}
+
+.entry-meta{
+  font-size:12px;
+  letter-spacing:0.2em;
+  color:#777;
+  margin-bottom:10px;
+}
+
+.article-entry h3{
+  font-weight:500;
+  margin-bottom:15px;
+}
+
+.article-entry a{
+  text-decoration:none;
+  color:#111;
+  border-bottom:1px solid #8E1C1C;
+}
+
+.article-entry p{
+  color:#666;
+}
+
+.volume-footer{
+  text-align:center;
+  padding:80px 0;
+  border-top:1px solid rgba(0,0,0,0.08);
+  font-size:13px;
+  color:#777;
+}
