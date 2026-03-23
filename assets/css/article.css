@@ -1,0 +1,164 @@
+.artHead {
+  padding: 76px 0 42px;
+}
+
+.artMetaLine {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.year {
+  color: var(--accent);
+}
+.dot {
+  opacity: 0.55;
+}
+
+.artTitle {
+  margin: 0 0 12px;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+}
+
+.artSubtitle {
+  margin: 0 0 14px;
+  font-size: 18px;
+  color: var(--muted);
+}
+
+.byline {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.dates {
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.dates .k {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.sep {
+  opacity: 0.55;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.abstractBlock {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 18px 20px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.kwRow {
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 12px;
+}
+.kwKey {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.kwVal {
+  font-size: 14px;
+}
+
+.figure {
+  margin: 0;
+}
+.figureFrame {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.55);
+}
+.figureFrame img {
+  width: 100%;
+  display: block;
+}
+.caption {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.refs {
+  padding-left: 18px;
+}
+.refs li {
+  margin-bottom: 10px;
+}
+
+.labBox {
+  margin: 34px 0 36px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.6);
+}
+.labBox__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 14px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.labBox__title {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 12px;
+}
+.labPanel {
+  padding: 14px;
+}
+.labPlaceholder {
+  margin-top: 12px;
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  padding: 26px 14px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+
+.endNav {
+  margin-top: 46px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Dark mode support */
+.dark .abstractBlock,
+.dark .figureFrame,
+.dark .labBox {
+  background: rgba(18, 18, 18, 0.62);
+}
+.dark .labPlaceholder {
+  border-color: rgba(244, 241, 236, 0.22);
+}
